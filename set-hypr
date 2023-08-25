@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# HyprV3 By SolDoesTech - https://www.youtube.com/@SolDoesTech
-# License..? - You may copy, edit and ditribute this script any way you like, enjoy! :)
-
 # The follwoing will attempt to install all needed packages to run Hyprland
 # This is a quick and dirty script there are some error checking
 # This script is meant to run on a clean fresh Arch install on physical hardware
