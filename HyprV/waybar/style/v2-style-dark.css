@@ -80,7 +80,7 @@ tooltip label{
     border: 0px;
 }
 
-#tray,#network ,#custom-lock_screen, #temperature, #backlight, #custom-launch_wofi, #cpu, #custom-power_btn {
+#network , #backlight, #custom-launch_wofi, #cpu {
     border-radius: 10px 0px 0px 10px;
 }
 
@@ -99,12 +99,6 @@ tooltip label{
     padding-left: 5px;
 }
 
-#custom-power_profile {
-    color: #a6e3a1;
-    border-left: 0px;
-    border-right: 0px;
-}
-
 #window {
     border-radius: 10px;
     margin-left: 20px;
@@ -113,7 +107,7 @@ tooltip label{
 
 #custom-launch_wofi {
     color: #89b4fa;
-    margin-left: 10px;
+    margin-left: 5px;
     border-right: 0px;
 }
 
@@ -132,6 +126,19 @@ tooltip label{
 #battery {
     color: #a6e3a1;
     border-left: 0px;
+}
+
+#tray{
+    background: #1e1e2e;
+    opacity: 0.8;
+    padding: 0px 10px;
+    margin: 3px 0px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border: 5px;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 #clock {
