@@ -85,13 +85,13 @@
     },
 
     "network": {
-        // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "  {signalStrength}%",
-        "format-ethernet": "{ipaddr}/{cidr}",
-        "tooltip-format": "{essid} - {ifname} via {gwaddr}",
-        "format-linked": "{ifname} (No IP)",
-        "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}:{essid} {ipaddr}/{cidr}"
+        /* "format-wifi": "直", */
+        "format-wifi": " {icon}",
+        "format-ethernet": " ",
+        "format-disconnected": "睊",
+        "tooltip-format": "{essid}",
+        "on-click": "kitty nmtui",
+        "format-icons": ["󰤯 ","󰤟 ","󰤢 ","󰤢 ","󰤨 "],
     },
 
     "battery": {
