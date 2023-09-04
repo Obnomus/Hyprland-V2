@@ -6,7 +6,7 @@
     "passthrough": false,
     "gtk-layer-shell": true,
     "height": 50,
-    "modules-left": ["custom/launch_wofi","wlr/workspaces","cpu","memory","disk","clock"],
+    "modules-left": ["custom/launch_wofi","hyprland/workspaces","cpu","memory","disk","clock"],
     "modules-center": ["hyprland/window"],
     "modules-right": ["network","battery","backlight","pulseaudio","pulseaudio#microphone","tray","custom/light_dark"],
     
@@ -46,7 +46,7 @@
         "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'"
     },
 
-    "wlr/workspaces": {
+    "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
         "on-click": "activate",
