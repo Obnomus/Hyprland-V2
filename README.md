@@ -1,5 +1,5 @@
-# HyprV3
-This is V3 of the Hyprland install script
+# HyprV2
+This is V2 of the Hyprland install script
 
 collection of dot config files for hyprland with a simple install script for a fresh Arch linux with yay
 
