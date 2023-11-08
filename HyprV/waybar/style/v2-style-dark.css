@@ -1,9 +1,9 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: "InconsolataNerdFont";
+    font-family: "CaskaydiaCove Nerd Font";
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     min-height: 0;
 }
 
@@ -14,7 +14,7 @@ window#waybar {
 
 tooltip {
     background: #1e1e2e;
-    opacity: 0.8;
+    opacity: 0.7;
     border-radius: 10px;
     border-width: 2px;
     border-style: solid;
@@ -72,8 +72,8 @@ tooltip label{
 #temperature,
 #workspaces,
 #backlight {
-    background: #1e1e2e;
-    opacity: 0.8;
+    background: #000000;
+    opacity: 0.7;
     padding: 0px 10px;
     margin: 3px 0px;
     margin-top: 10px;
@@ -106,31 +106,31 @@ tooltip label{
 }
 
 #custom-launch_wofi {
-    color: #89b4fa;
+    color: #cdd6f4;
     margin-left: 5px;
     border-right: 0px;
 }
 
 #pulseaudio {
-    color: #89b4fa;
+    color: #cdd6f4;
     border-left: 0px;
     border-right: 0px;
 }
 
 #pulseaudio.microphone {
-    color: #cba6f7;
+    color: #cdd6f4;
     border-left: 0px;
     border-right: 0px;
 }
 
 #battery {
-    color: #a6e3a1;
+    color: #cdd6f4;
     border-left: 0px;
 }
 
 #tray{
-    background: #1e1e2e;
-    opacity: 0.8;
+    background: #000000;
+    opacity: 0.7;
     padding: 0px 10px;
     margin: 3px 0px;
     margin-right: 5px;
@@ -142,8 +142,8 @@ tooltip label{
 }
 
 #clock {
-    background: #1e1e2e;
-    opacity: 0.8;
+    background: #000000;
+    opacity: 0.7;
     padding: 0px 10px;
     margin: 3px 0px;
     margin-top: 10px;
