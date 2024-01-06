@@ -1,5 +1,6 @@
 /*@import url("/home/obnomus/.cache/wal/colors-waybar.css");*/
 
+
 * {
     border: none;
     border-radius: 0;
@@ -170,4 +171,16 @@ tooltip label{
 #taskbar button:hover {
     background: #11111b;
     color: #cdd6f4;
+}
+
+
+#taskbar button.active {
+    background: #93cee9;
+    color: #ffffff;
+    margin-left: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 3px;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
