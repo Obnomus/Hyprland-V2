@@ -49,6 +49,7 @@
     "wlr/taskbar": {
         "format": "{icon}",
         "icon-size": 18,
+        "spacing": 0,
         "on-click-middle" : "close",
         "tooltip-format": "{title}",
         "on-click": "activate"
@@ -102,7 +103,7 @@
         "format-disconnected": "睊",
         "tooltip-format": "{essid}",
         "on-click": "kitty nmtui",
-        "format-icons": ["󰤯 ","󰤟 ","󰤢 ","󰤢 ","󰤨 "],
+        "format-icons": ["󰤯 ","󰤟 ","󰤢 ","󰤢 ","󰤨 "]
     },
 
     "battery": {
