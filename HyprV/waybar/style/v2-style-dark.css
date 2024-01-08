@@ -168,6 +168,20 @@ tooltip label{
     padding-left: 10px;
 }
 
+#taskbar button {
+    box-shadow: none;
+	text-shadow: none;
+    padding: 0px;
+    border-radius: 9px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #93cee9;
+    animation: gradient_f 5s ease-in infinite;
+    transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
 #taskbar button:hover {
     background: #11111b;
     color: #cdd6f4;
