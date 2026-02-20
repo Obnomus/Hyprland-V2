@@ -1,0 +1,22 @@
+configuration {
+  modi: "drun";
+  hover-select: true;
+  icon-theme: "Tela-circle-dracula";
+  me-select-entry: "";
+  me-accept-entry: [ MousePrimary ];
+  scroll-method: 0;
+  show-icons: true;
+  terminal: "kitty";
+  drun-display-format: "{icon}  {name}";
+  display-drun: "  ";
+  location: 0;
+  disable-history: false;
+  hide-scrollbar: true;
+}
+
+
+@import "~/.cache/wal/colors-rofi-dark"
+element-text {
+    background-color: inherit;
+    text-color: inherit;
+}
