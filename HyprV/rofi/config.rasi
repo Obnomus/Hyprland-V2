@@ -15,7 +15,7 @@ configuration {
 }
 
 
-@import "~/.cache/wal/colors-rofi-dark"
+@import "~/.config/rofi/matugen-colors.rasi"
 element-text {
     background-color: inherit;
     text-color: inherit;
